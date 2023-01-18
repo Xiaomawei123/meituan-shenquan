@@ -10,9 +10,9 @@ import os
 import sys
 import datetime
 
-#定义11点  用于开启server 酱推送
+#定义17点  用于开启server 酱推送
 global d_time0,d_time1,d_time2,n_time
-d_time0 = datetime.datetime.strptime(str(datetime.datetime.now().date()) + '11:00', '%Y-%m-%d%H:%M')
+d_time0 = datetime.datetime.strptime(str(datetime.datetime.now().date()) + '17:00', '%Y-%m-%d%H:%M')
 
 
 n_time = datetime.datetime.now()
